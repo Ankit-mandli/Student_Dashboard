@@ -53,6 +53,11 @@ if (isset($_POST['submit'])) {
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+      <script>
+      alert(`You can login as a admin with new email
+      
+      For demo login with email:- admin1@gmail.com | password:- admin1`)
+    </script>
     <script type="text/javaScript">
       function handlelogin1(){
           document.getElementById("div1").style.display='block';
